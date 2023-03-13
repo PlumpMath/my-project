@@ -1,12 +1,12 @@
 {
   description = "Your jupyenv project";
 
-  nixConfig.extra-substituters = [
-    "https://tweag-jupyter.cachix.org"
-  ];
-  nixConfig.extra-trusted-public-keys = [
-    "tweag-jupyter.cachix.org-1:UtNH4Zs6hVUFpFBTLaA4ejYavPo5EFFqgd7G7FxGW9g="
-  ];
+  # nixConfig.extra-substituters = [
+  #   "https://tweag-jupyter.cachix.org"
+  # ];
+  # nixConfig.extra-trusted-public-keys = [
+  #   "tweag-jupyter.cachix.org-1:UtNH4Zs6hVUFpFBTLaA4ejYavPo5EFFqgd7G7FxGW9g="
+  # ];
 
   inputs.flake-compat.url = "github:edolstra/flake-compat";
   inputs.flake-compat.flake = false;
